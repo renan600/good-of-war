@@ -9,17 +9,17 @@
     background-attachment: fixed;
     background-position  : center center;
     height               : 70vh;
-    box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.479);
+    box-shadow           : inset 5px 5px 10px rgba(0, 0, 0, 0.479);
 }
 
 .imagem--familia__kratos {
     box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.397);
-    width: 100%;
+    width     : 100%;
 }
 
 @media screen and (max-width:700px) {
-    .imagem--parallax__01{
+    .imagem--parallax__01 {
         background-position: right center;
-        height: 40vh;
+        height             : 40vh;
     }
 }

@@ -1,4 +1,5 @@
 @charset "UTF-8";
+
 @font-face {
     font-family: 'font-good';
     src        : url(../font/godofwar/GODOFWAR.TTF);
@@ -8,12 +9,14 @@
     font-family: 'font-romana';
     src        : url(../font/roman_sd/Roman\ SD.ttf);
 }
-*{
-    margin: 0px;
+
+* {
+    margin : 0px;
     padding: 0px;
 }
 
-.historia, .trilogia{
+.historia,
+.trilogia {
     min-width: 220px;
     max-width: 1200px;
     margin   : auto;
@@ -23,12 +26,12 @@
 .titulo {
     text-align             : center;
     font-family            : 'font-good';
-    font-size              : 4vw;
+    font-size              : 4em;
     margin-bottom          : 10px;
     margin-top             : 30px;
     background             : #daa520;
-    background             : -webkit-linear-gradient(to bottom,  #925800 , gold ,#925800);
-    background             : linear-gradient(to bottom, #925800 , gold ,#925800);
+    background             : -webkit-linear-gradient(to bottom, #925800, gold, #925800);
+    background             : linear-gradient(to bottom, #925800, gold, #925800);
     -webkit-background-clip: text;
     background-clip        : text;
     color                  : transparent;
@@ -40,24 +43,25 @@
     text-align : center;
     font-family: 'font-romana';
     min-width  : 280px;
-    max-width  : 900px;
+    max-width  : 1000px;
     margin     : 0px auto 20px auto;
     display    : block;
     line-height: 1.5em;
     color      : #606060;
     font-weight: bold;
-    font-size: 2vw;
+    font-size  : 2vw;
 
 }
 
-.historia--titulo,  .trilogia--titulo{
+.historia--titulo,
+.trilogia--titulo {
     text-align             : center;
     font-family            : 'font-good';
     font-size              : 2.5em;
     padding                : 30px 0px;
     background             : #daa520;
-    background             : -webkit-linear-gradient(to bottom,  #925800 , gold ,#925800);
-    background             : linear-gradient(to bottom,  #925800 , gold ,#925800);
+    background             : -webkit-linear-gradient(to bottom, #925800, gold, #925800);
+    background             : linear-gradient(to bottom, #925800, gold, #925800);
     -webkit-background-clip: text;
     background-clip        : text;
     color                  : transparent;
@@ -65,7 +69,8 @@
     text-shadow            : 2px 2px 5px rgba(0, 0, 0, 0.144);
 }
 
-.historia--descricao, .trilogia--descricao{
+.historia--descricao,
+.trilogia--descricao {
     margin-bottom: 5px;
     font-size    : 1.5em;
     line-height  : 1.5em;
@@ -74,32 +79,37 @@
     font-family  : Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width:1000px ) {
-    .historia--titulo, .trilogia--titulo{
+@media screen and (max-width:1000px) {
+
+    .historia--titulo,
+    .trilogia--titulo {
         font-size: 4vw;
     }
-    .historia--descricao, .trilogia--descricao{
-        font-size:2vw ;
+
+    .historia--descricao,
+    .trilogia--descricao {
+        font-size: 2vw;
     }
 }
-@media screen and (max-width:600px ) {
-    .historia--titulo, .trilogia--titulo{
+
+@media screen and (max-width:600px) {
+
+    .historia--titulo,
+    .trilogia--titulo {
         font-size: 5vw;
     }
-    .historia--descricao{
-        font-size:3vw ;
+
+    .historia--descricao {
+        font-size: 3vw;
     }
-    .trilogia--descricao{
+
+    .trilogia--descricao {
         font-size: 2.5vw;
     }
 }
 
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1100px) {
     .titulo {
         font-size: 6vw;
     }
-    .descricao{
-
-    }
 }
-
