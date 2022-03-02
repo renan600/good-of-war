@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+.rodape {
+    text-align      : center;
+    background-color: black;
+    border-top      : 1px solid goldenrod;
+    border-bottom   : 1px solid goldenrod;
+}
+
+.rodape--descricao {
+    padding    : 20px 5px;
+    color      : white;
+    font-family: 'font-good';
+}
+
+.rodape--link {
+    text-decoration        : none;
+    font-weight            : bold;
+    background             : #daa520;
+    background             : -webkit-linear-gradient(to bottom, #925800, gold, #925800);
+    background             : linear-gradient(to bottom, #925800, gold, #925800);
+    -webkit-background-clip: text;
+    background-clip        : text;
+    color                  : transparent;
+    font-family            : font-good, Arial, Helvetica, sans-serif;
+    
+}
+
+.rodape--link:hover {
+    cursor: pointer;
+    text-shadow            : 2px 2px 5px rgba(255, 255, 255, 0.719);
+}

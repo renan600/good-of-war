@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+.imagem--parallax {
+    background-size      : cover;
+    background-repeat    : no-repeat;
+    background-attachment: fixed;
+    background-position  : center top;
+    box-shadow           : inset 5px 5px 10px rgba(0, 0, 0, 0.479);
+    display              : flex;
+    padding              : 150px 10px;
+
+}
+
+.img01 {
+    background-image: url(../imagens/God-Of-War-1.jpg);
+    background-position  : right center;
+}
+
+.img02 {
+    background-image: url(../imagens/God-Of-War-2.jpg);
+    background-position  : right center;
+}
+
+.img03 {
+    background-image: url(../imagens/God-Of-War-3.jpg);
+    background-position  : right center;
+}
+
+.img04 {
+    background-image: url(../imagens/God-Of-War-ascension.jpg);
+}
+
+.img05 {
+    background-image: url(../imagens/cabecalho.webp);
+    background-position  : center center ;
+}
+
+.img06 {
+    background-image: url(../imagens/God-Of-War-Ragnarok.jpg);
+}
+
+.descricao--imagem__parallax {
+    min-width       : 220px;
+    max-width       : 900px;
+    margin          : auto;
+    background-color: rgba(0, 0, 0, 0.808);
+    color           : white;
+    padding         : 20px;
+    border-radius   : 10px;
+}
+
+.trilogia--descricao {
+    font-family: 'font-romana';
+}
+
+.borda {
+    background-image: url(../imagens/bordaa.webp);
+    height          : 115px;
+    background-color: white;
+}
