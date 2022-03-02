@@ -126,11 +126,12 @@
     .menu--link {
         font-size: 5vw;
     }
-    .informacao--botao{
+
+    .informacao--botao {
         font-size: 2vw;
-        padding: 10px 5px;
+        padding  : 10px 5px;
     }
-   
+
 }
 
 @media screen and (max-width:1300px) {
@@ -140,18 +141,38 @@
 }
 
 @media screen and (max-width:700px) {
-    .informacao{
-        padding:30px 10px 20px 10px ;
-        top             : 50%;
-        left            : 40%;
-        transform       : translate(-50%, -50%);
-        
+    .informacao {
+        padding  : 30px 10px 20px 10px;
+        top      : 50%;
+        left     : 40%;
+        transform: translate(-50%, -50%);
+
     }
+
     .informacao--descricao {
         font-size: 2.5vw;
     }
-    .informacao--botao{
+
+    .informacao--botao {
         font-size: 2vw;
-        padding: 10px 5px;
+        padding  : 10px 5px;
+    }
+}
+
+@media screen and (max-height:500px) {
+    .informacao {
+        position        : absolute;
+        width           : 80%;
+        top             : 60%;
+        left            : 50%;
+        transform       : translate(-50%, -50%);
+        box-shadow      : 5px 5px 10px rgba(0, 0, 0, 0.658);
+        border-radius   : 5px;
+        background-color: rgba(0, 0, 0, 0.747);
+        padding         : 20px 30px 10px 30px;
+
+    }
+    .informacao--descricao{
+        font-size: 11px;
     }
 }
